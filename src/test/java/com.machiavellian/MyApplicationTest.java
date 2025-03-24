@@ -19,4 +19,9 @@ public class MyApplicationTest {
         Object result = myApplication.multiply(2, 3);
         assertEquals(result, 6);
     }
+    @Test
+    public void testSubtract() {
+        Object result = myApplication.subtract(4, 3);
+        assertEquals(result, 6);
+    }
 }
