@@ -4,6 +4,13 @@
 	<groupId>com.machiavellian</groupId>
 	<artifactId>example-coverage-project</artifactId>
 	<build>
+		<distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>a0mvzc9yhbwto-artifactory-primary-0-snapshots</name>
+        <url>https://trialj0slyo.jfrog.io/artifactory/demm-libs-snapshot</url>
+    </snapshotRepository>
+</distributionManagement>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -119,3 +126,22 @@
 
 
 </project>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
