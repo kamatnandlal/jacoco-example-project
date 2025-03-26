@@ -12,11 +12,11 @@
 
   <!-- Distribution Management (Move outside of the build section) -->
 <distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>a0mvzc9yhbwto-artifactory-primary-0-releases</name>
-        <url>https://trialj0slyo.jfrog.io/artifactory/demm-libs-release</url>
-    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>a0mvzc9yhbwto-artifactory-primary-0-snapshots</name>
+        <url>https://trialj0slyo.jfrog.io/artifactory/demo-libs-snapshot</url>
+    </snapshotRepository>
 </distributionManagement>
 
 
