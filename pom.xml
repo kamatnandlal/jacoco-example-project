@@ -11,13 +11,15 @@
   <name>cobertura-example-project</name>
 
   <!-- Distribution Management (Move outside of the build section) -->
-  <distributionManagement>
-    <snapshotRepository>
-      <id>snapshots</id>
-      <name>a0mvzc9yhbwto-artifactory-primary-0-snapshots</name>
-      <url>https://trialj0slyo.jfrog.io/artifactory/demm-libs-snapshot</url>
-    </snapshotRepository>
-  </distributionManagement>
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>a0mvzc9yhbwto-artifactory-primary-0-releases</name>
+        <url>https://trialj0slyo.jfrog.io/artifactory/demm-libs-release</url>
+    </repository>
+</distributionManagement>
+
+
 
   <!-- Build section -->
   <build>
